@@ -1,0 +1,34 @@
+@media (max-width: 390px) {
+    .container {
+        max-width: 370px;
+    }
+
+    .startup__grid {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+        row-gap: 14px;
+    }
+
+    .startup__card {
+        height: 74px;
+    }
+    
+    .platforms__grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .platforms__card {
+        height: 74.5px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .burger {
+        z-index: 1;
+        display: block;
+    }
+
+    .header__links {
+        display: none;
+    }
+}
